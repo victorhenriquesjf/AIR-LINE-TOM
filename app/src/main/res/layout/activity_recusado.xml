@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adilson.airlinetom.RecusadoActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="239dp"
+            app:srcCompat="@drawable/recusado" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:text="O seu Cartão foi Recusado, por falta de limite. Entre em contato com o seu banco."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/btnfechar"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="Fechar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
